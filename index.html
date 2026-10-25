@@ -1,79 +1,395 @@
-<!doctype html>
-<html>
-  <head>
-    <!-- Page setup -->
-    <meta charset="utf-8">
-    <title>Your title here</title>
-    <meta name="description" content="A brief description of your site for search engines">
-    <meta name="author" content="Information about the author here">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <link rel="icon" type="image/png" href="favicon.png">
-  
-    <!-- Stylesheets -->
-    <!-- Reset default styles and add support for google fonts -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
-   
-    <!-- Custom styles -->
-    <link href="style.css" rel="stylesheet" type="text/css" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Abegail Sonsona Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- google fonts -->
+<!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">  <link href="style.css" rel="stylesheet">
+</head>
+<body>
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+ <!-- navigation bar -->
+  <div class="nav">
+    <a href="#home">Home</a>
+    <a href="#skills">Skills</a>
+    <a href="#works">Works</a>
+    <a href="#campus">Campus</a>
+    <a href="#certs">Certifications</a>
+    <a href="#creative">Creative</a>
+    <a href="#socials">Socials</a>
+  </div>
 
-    <!-- Want to add Bootstrap? -->
-    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+  <!-- home section -->
+  <div class="hero-section" id="home">
+    <div class="Introduction">
+      <p class="section">Abegail Sonsona &middot; BSIT 3-2</p>
+      <h1>Hi, I'm <span class="name">Aeve.</span></h1>
+      <p class="tagline">IT student, UI/UX enthusiast, and digital artist.</p>
+      <p class="aboutme">I transform ideas into seamless digital experiences. Whether I am building web apps, mapping out user journeys, or illustrating, I am driven to create spaces that look great and work flawlessly.</p>
+    </div>
     
-  </head>
-  
-  <body>
+    <!-- polaroid card -->
+    <div class="polaroid hero-polaroid">
+      <img src="Face pics/Aevepic.jpg" alt="Abegail Sonsona">
+      <div class="container">
+        <p></p>
+      </div>
+    </div>
+  </div>
 
-    <header id="header">
-      <img src="logo.png">
-      <h1>Simple Website</h1>
-      
-      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
-      <ul class="main-menu">
-        <li><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>                 
-    </header>
-   
-    <div id="container">
-      <div class="inner">
-        <div id="content"> 
-          
-          <div id="home" class="content-region hide">
-            <h2>Home</h2>
-            <p>
-              This is a simple website template published with Github Pages. <a href="https://github.com/zirafa/simple-website-template">Fork this repository</a> to create your own site!
-            </p>
-          </div>
-          
-          <div id="about" class="content-region hide">
-            <h2>About</h2>
-            <p>
-              Sed tempus urna et pharetra pharetra massa massa ultricies. Porttitor rhoncus dolor purus non enim praesent. Id aliquet risus feugiat in ante metus dictum. 
-            </p>
-          </div>
-          
-          <div id="contact" class="content-region hide">
-            <h2>Contact</h2>
-            <p>
-              Pellentesque nec nam aliquam sem et tortor consequat. Quisque sagittis purus sit amet volutpat consequat. Magna eget est lorem ipsum dolor. 
-            </p>
-          </div>
-          
+  <div class="wrap">
+
+    <!-- skills section -->
+    <div class="block" id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-box">
+          <div class="icon"><img src="Logos/html.png" alt="HTML"></div>
+          <span>HTML</span>
+        </div>
+        <div class="skill-box">
+          <div class="icon"><img src="Logos/css.png" alt="CSS"></div>
+          <span>CSS</span>
+        </div>
+        <div class="skill-box">
+          <div class="icon"><img src="Logos/Javalogo.png" alt="Java"></div>
+          <span>Java</span>
+        </div>
+        <div class="skill-box">
+          <div class="icon"><img src="Logos/python.png" alt="Python"></div>
+          <span>Python</span>
+        </div>
+        <div class="skill-box">
+          <div class="icon"><img src="Logos/Cobol.png" alt="COBOL"></div>
+          <span>COBOL</span>
+        </div>
+        <div class="skill-box">
+          <div class="icon"><img src="Logos/githublogo.png" alt="GitHub"></div>
+          <span>GitHub</span>
+        </div>
+        <div class="skill-box">
+          <div class="icon"><img src="Logos/Mysql.png" alt="MySQL"></div>
+          <span>MySQL</span>
+        </div>
+        <div class="skill-box">
+          <div class="icon"><img src="Logos/figma.png" alt="Figma"></div>
+          <span>Figma</span>
+        </div>
+        <div class="skill-box">
+          <div class="icon"><img src="Logos/photoshop.png" alt="Photoshop"></div>
+          <span>Photoshop</span>
+        </div>
+        <div class="skill-box">
+          <div class="icon"><img src="Logos/canva.png" alt="Canva"></div>
+          <span>Canva</span>
+        </div>
+        <div class="skill-box">
+          <div class="icon"><img src="Logos/cisco.png" alt="Cisco Packet Tracer"></div>
+          <span>Packet Tracer</span>
+        </div>
+        <div class="skill-box">
+          <div class="icon"><img src="Logos/vscode.png" alt="VS Code"></div>
+          <span>VS Code</span>
         </div>
       </div>
     </div>
 
-    <footer>  
-      Footer region
-    </footer>
-    
-    <!-- Load additional JS scripts here -->
-    <script type="text/javascript" src="script.js"></script>
-    
-  </body>
+    <!-- works section -->
+    <div class="block" id="works">
+      <h2>Works so far</h2>
+      <div class="projects">
+
+        <div class="project" onclick="openModal(this)" data-title="Arway" data-img="Works/ARways.png">
+          <div class="pic"><img src="Works/ARways.png" alt="ARway Picture"></div>
+          <h3>ARways</h3>
+          <p>An AR navigation web app built for AppBuildersPH 2026. It uses live camera views, on-screen guide lines, and offline landmark recognition to guide your walk.</p>
+        </div>
+
+        <div class="project" onclick="openModal(this)" data-title="CCISalubong Tour Website" data-img="Works/ToursWebsite.png">
+          <div class="pic"><img src="Works/ToursWebsite.png" alt="CCISalubong Tour Website Picture"></div>
+          <h3>CCISalubong Tour Website</h3>
+          <p>An interactive digital campus tour website built for incoming CCIS freshmen to explore university buildings, facilities, and student life.</p>
+          <a class="chat" href="https://ccisalubong-tours.github.io/CAMPUS-TOUR/#welcome" target="_blank" onclick="event.stopPropagation();">
+            <span class="chat-bubble">&#128172; Click me to view</span>
+          </a>
+        </div>
+
+        <div class="project" onclick="openModal(this)" data-title="Riles" data-img="Works/Riles.png">
+          <div class="pic"><img src="Works/Riles.png" alt="Riles Picture"></div>
+          <h3>Riles</h3>
+          <p>A smart academic dispatcher for student commuters. It analyzes transit times and class gaps to turn heavy course loads into actionable, realistic study schedules.</p>
+        </div>
+
+        <div class="project" onclick="openModal(this)" data-title="Claro" data-img="Works/Claro.png">
+          <div class="pic"><img src="Works/Claro.png" alt="Claro Picture"></div>
+          <h3>Claro</h3>
+          <p>An AI agent that placed Top 5 in the KPMG Academic Innovation Challenge. An autonomous student support platform that uses AI to route campus issues to the correct university office, complete with a unified dashboard for real-time ticket tracking.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- modal -->
+    <div class="modal" id="modal">
+      <button class="close" onclick="closeModal()">X</button>
+      <img id="modal-img" src="" alt="">
+    </div>
+
+    <!-- campus affiliations -->
+    <div class="block" id="campus">
+      <div class="campus-panel">
+        <h2>Campus Affiliations</h2>
+        <div class="logos">
+          <a class="logo" href="https://www.facebook.com/gdg.pupmnl" target="_blank">
+            <div class="pic round"><img src="Logos/gdg.png" alt="GDG"></div>
+            <p>GDG</p>
+          </a>
+          <a class="logo" href="https://www.facebook.com/awssbg.pup.manila" target="_blank">
+            <div class="pic round"><img src="Logos/awsLogo.jpg" alt="AWS"></div>
+            <p>AWS</p>
+          </a>
+          <a class="logo" href="https://www.facebook.com/profile.php?id=61593721307476" target="_blank">
+            <div class="pic round"><img src="Logos/fGWB Logo.jpg" alt="FGWB PH"></div>
+            <p>FGWB PH</p>
+          </a>
+        </div>
+        <h3>Volunteer roles</h3>
+        <ul class="roles">
+          <li>CCISalubong website creator and tour guide</li>
+          <li>AWS Logistics team</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- certifications -->
+    <div class="block" id="certs">
+      <h2>Certifications</h2>
+
+      <div class="pair">
+        <h3>KPMG</h3>
+        <div class="cert">
+          <div class="pic"><img src="Certficates/KPMG CERTIFICATE.png" alt="KPMG Certficate"></div>
+        </div>
+        <div class="polaroid">
+          <div class="pic"><img src="Certficates/KPMG2.jpg" alt="KPMG Event Pic"></div>
+          <p>Me during KPMG</p>
+        </div>
+      </div>
+
+      <div class="pair">
+        <h3>AppBuildersPH</h3>
+        <div class="cert">
+          <div class="pic"><img src="Certficates/appbuildersph.png" alt="AppBuildersPH Certificate"></div>
+        </div>
+        <div class="polaroid">
+          <div class="pic"><img src="Certficates/sector4.jpg" alt="AppBuildersPH"></div>
+          <p>Me during AppBuildersPH</p>
+        </div>
+      </div>
+
+      <div class="pair">
+        <h3>IBITS Quiz Bee</h3>
+        <div class="cert">
+          <div class="pic"><img src="Certficates/technolympicsquizbee.png" alt="IBIT Quiz Bee Certficate"></div>
+        </div>
+        <div class="polaroid">
+          <div class="pic"><img src="Certficates/FirstPlaceQuizBeeIBITS.jpg" alt="FirstPlaceQuizBeeIBITS"></div>
+          <p>Me during IBITS Quiz Bee</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- hobbies section -->
+    <div class="block" id="creative">
+      <h2>Hobbies and crafts</h2>
+      <div class="open-board">
+        <p>Collages, digital art, and crochet pinned on a corkboard.</p>
+        <button id="open-board" onclick="openArtModal()">Open the corkboard</button>
+      </div>
+    </div>
+
+    <!-- corkboard modal popup -->
+    <div class="modal" id="art-modal">
+      <div class="art-box">
+        <button class="close" onclick="closeArtModal()">X</button>
+
+        <!-- filter buttons -->
+        <div class="board-buttons">
+          <button id="btn-all" class="active" onclick="filterArt('all')">Mixed</button>
+          <button id="btn-collage" onclick="filterArt('collage')">Collage Stories</button>
+          <button id="btn-digital" onclick="filterArt('digital')">Digital Artworks</button>
+          <button id="btn-crochet" onclick="filterArt('crochet')">Crochet</button>
+        </div>
+
+        <div class="board" id="board">
+          <div class="polaroid item collage" data-category="collage" data-all="yes">
+            <img src="Collage/Collage1.jpg" alt="Collage">
+            <p>Collage</p>
+          </div>
+
+          <div class="polaroid item collage" data-category="collage" data-all="yes">
+            <img src="Collage/Collage2.jpg" alt="Collage">
+            <p>Collage</p>
+          </div>
+
+          <div class="polaroid item digital" data-category="digital" data-all="yes">
+            <img src="DigitalWorks/Jenny Laotter.png" alt="Digital Artwork">
+            <p>Digital Artwork</p>
+          </div>
+
+          <div class="polaroid item collage" data-category="collage" data-all="yes">
+            <img src="Collage/Collage17.jpg" alt="Collage">
+            <p>Collage</p>
+          </div>
+
+          <div class="polaroid item crochet" data-category="crochet" data-all="yes">
+            <img src="Crochet/CrochetStatue.jpg" alt="Crochet">
+            <p>Crochet</p>
+          </div>
+
+          <div class="polaroid item collage" data-category="collage">
+            <img src="Collage/Collage4.jpg" alt="Collage">
+            <p>Collage</p>
+          </div>
+
+          <div class="polaroid item collage" data-category="collage" data-all="yes">
+            <img src="Collage/Collage5.jpg" alt="Collage">
+            <p>Collage</p>
+          </div>
+
+          <div class="polaroid item digital" data-category="digital">
+            <img src="DigitalWorks/Piggeh.png" alt="Digital Artwork">
+            <p>Digital Artwork</p>
+          </div>
+
+          <div class="polaroid item collage" data-category="collage">
+            <img src="Collage/Collage7.jpg" alt="Collage">
+            <p>Collage</p>
+          </div>
+
+          <div class="polaroid item collage" data-category="collage" data-all="yes">
+            <img src="Collage/Collage6.jpg" alt="Collage">
+            <p>Collage</p>
+          </div>
+
+          <div class="polaroid item digital" data-category="digital" data-all="yes">
+            <img src="DigitalWorks/Racaeve.png" alt="Digital Artwork">
+            <p>Digital Artwork</p>
+          </div>
+
+          <div class="polaroid item collage" data-category="collage">
+            <img src="Collage/Collage8.jpg" alt="Collage">
+            <p>Collage</p>
+          </div>
+
+          <div class="polaroid item crochet" data-category="crochet" data-all="yes">
+            <img src="Crochet/CrochetPlant.jpg" alt="Crochet">
+            <p>Crochet</p>
+          </div>
+
+          <div class="polaroid item collage" data-category="collage" data-all="yes">
+            <img src="Collage/Collage15.jpg" alt="Collage">
+            <p>Collage</p>
+          </div>
+
+          <div class="polaroid item collage" data-category="collage">
+            <img src="Collage/Collage10.jpg" alt="Collage">
+            <p>Collage</p>
+          </div>
+
+          <div class="polaroid item digital" data-category="digital">
+            <img src="DigitalWorks/Cowbell.png" alt="Digital Artwork">
+            <p>Digital Artwork</p>
+          </div>
+          
+          <div class="polaroid item collage" data-category="collage" data-all="yes">
+            <img src="Collage/Collage11.jpg" alt="Collage">
+            <p>Collage</p></div>
+
+          <div class="polaroid item digital" data-category="digital" data-all="yes">
+            <img src="DigitalWorks/Puffer.png" alt="Digital Artwork">
+            <p>Digital Artwork</p></div>
+
+          <div class="polaroid item collage" data-category="collage">
+            <img src="Collage/Collage12.jpg" alt="Collage">
+            <p>Collage</p></div>
+            
+          <div class="polaroid item collage" data-category="collage" data-all="yes">
+            <img src="Collage/Collage13.jpg" alt="Collage">
+            <p>Collage</p></div>
+
+          <div class="polaroid item digital" data-category="digital">
+            <img src="DigitalWorks/Birdie.png" alt="Digital Artwork">
+            <p>Digital Artwork</p></div>
+
+          <div class="polaroid item collage" data-category="collage">
+            <img src="Collage/Collage14.jpg" alt="Collage"><p>Collage</p></div>
+
+          <div class="polaroid item crochet" data-category="crochet" data-all="yes">
+            <img src="Crochet/CrochetDragonFly.jpg" alt="Crochet"><p>Crochet</p></div>
+
+          <div class="polaroid item collage" data-category="collage">
+            <img src="Collage/Collage9.jpg" alt="Collage"><p>Collage</p></div>
+
+          <div class="polaroid item digital" data-category="digital" data-all="yes">
+            <img src="DigitalWorks/Hampter.png" alt="Digital Artwork"><p>Digital Artwork</p></div>
+
+          <div class="polaroid item collage" data-category="collage">
+            <img src="Collage/Collage16.jpg" alt="Collage"><p>Collage</p></div>
+
+          <div class="polaroid item digital" data-category="digital">
+            <img src="DigitalWorks/FroggyPotter.png" alt="Digital Artwork"><p>Digital Artwork</p></div>
+
+          <div class="polaroid item collage" data-category="collage">
+            <img src="Collage/Collage3.jpg" alt="Collage"><p>Collage</p></div>
+            
+          <div class="polaroid item digital" data-category="digital">
+            <img src="DigitalWorks/HappyFella.png" alt="Digital Artwork"><p>Digital Artwork</p></div>
+
+          <div class="polaroid item digital" data-category="digital">
+            <img src="DigitalWorks/Crabby.png" alt="Digital Artwork"><p>Digital Artwork</p></div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- footer -->
+  <footer id="socials">
+    <h2>Let's Connect!</h2>
+    <ul class="links">
+      <li><a href="https://www.facebook.com/hAEVEnsentme/" target="_blank">
+        <img src="Logos/facebook.png" alt="Facebook">
+        <span>Facebook</span>
+      </a></li>
+
+      <li><a href="https://www.instagram.com/haeven_sent_me/" target="_blank">
+        <img src="Logos/instagram.png" alt="Instagram">
+        <span>Instagram</span>
+      </a></li>
+
+      <li><a href="mailto:abegailsonsona05@gmail.com">
+        <img src="Logos/email.png" alt="Email">
+        <span>Email</span>
+      </a></li>
+
+      <li><a href="https://www.linkedin.com/in/abegail-sonsona-78180032a/" target="_blank">
+        <img src="Logos/linkedin.png" alt="LinkedIn">
+        <span>LinkedIn</span>
+      </a></li>
+
+      <li><a href="https://github.com/Haevenlyy" target="_blank">
+        <img src="Logos/github.png" alt="GitHub">
+        <span>GitHub</span>
+      </a></li>
+
+    </ul>
+    <p class="copy">&copy; 2026 Abegail Sonsona. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
